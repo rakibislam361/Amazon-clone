@@ -6,5 +6,5 @@ const firebaseConfig = {
   storageBucket: "clone-4334a.appspot.com",
   messagingSenderId: "500359603192",
   appId: "1:500359603192:web:2a5e75c3db420360a66c0d",
-  measurementId: "G-SM3Q1Y887F",
+  measurementId: "G-SM3Q1Y887F"
 };

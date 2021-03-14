@@ -22,48 +22,52 @@ const Home = (props) => {
         <div className="home">
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
-                    <img src={slider} alt=""/>
+                    <img className="backgroundImage" src={slider} alt=""/>
                 </Carousel.Item>
                 
                 <Carousel.Item>
-                    <img src={slider2} alt=""/>
+                    <img className="backgroundImage" src={slider2} alt=""/>
                 </Carousel.Item>
                 
                 <Carousel.Item>
-                    <img src={slider3} alt=""/>
+                    <img className="backgroundImage" src={slider3} alt=""/>
                 </Carousel.Item>
                 
                 <Carousel.Item>
-                    <img src={slider4} alt=""/>
+                    <img className="backgroundImage" src={slider4} alt=""/>
                 </Carousel.Item>
             </Carousel>
 
-            <div className="home__row" style={{ }}>
+            <div className="home__row">
                 <Product
-                    id="1"
-                    title="New Product One" 
-                    price="500" 
+                    id={1}
+                    title="New Product One"
+                    desc="description" 
+                    price={500} 
                     img={product1}
                     rating={5}
                 />
                 <Product 
-                    id="2"
+                    id={2}
                     title="New Product Two" 
-                    price="200"
+                    desc="description" 
+                    price={200}
                     img={product2}
                     rating={4}
                 />
                 <Product 
-                    id="3"
+                    id={3}
                     title="New Product Three" 
-                    price="100"
+                    desc="description" 
+                    price={100}
                     img={product3}
                     rating={3}
                   />
                 <Product 
-                    id="4"
+                    id={4}
                     title="New Product Four" 
-                    price="900"
+                    desc="description" 
+                    price={900}
                     img={product4}
                     rating={4}
                 />
